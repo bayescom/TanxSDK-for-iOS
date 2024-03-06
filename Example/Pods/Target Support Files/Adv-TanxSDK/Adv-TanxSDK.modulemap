@@ -1,6 +1,0 @@
-framework module Adv_TanxSDK {
-  umbrella header "Adv-TanxSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

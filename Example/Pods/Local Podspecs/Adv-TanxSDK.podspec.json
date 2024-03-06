@@ -12,7 +12,7 @@
     "guangyao": "wangguangyao@163.com"
   },
   "source": {
-    "git": "https://github.com/guangyao/Adv-TanxSDK.git",
+    "git": "git@github.com:bayescom/TanxSDK-for-iOS.git",
     "tag": "3.1.1"
   },
   "platforms": {

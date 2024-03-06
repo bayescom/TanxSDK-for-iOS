@@ -22,13 +22,11 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/bayescom/TanxSDK-for-iOS.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guangyao' => 'wangguangyao@163.com' }
-  s.source           = { :git => 'https://github.com/guangyao/Adv-TanxSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'git@github.com:bayescom/TanxSDK-for-iOS.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.platform = :ios, "10.0"
 
   s.frameworks = 'AdSupport','CoreMotion','CoreTelephony','SystemConfiguration','WebKit'
   s.libraries = 'resolv','sqlite3','z'

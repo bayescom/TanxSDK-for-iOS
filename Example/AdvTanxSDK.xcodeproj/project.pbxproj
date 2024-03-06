@@ -17,31 +17,33 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B01854046051184A36E5CA03 /* Pods_Adv_TanxSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B1E1B5623C6EA4114FAF1B /* Pods_Adv_TanxSDK_Example.framework */; };
+		9B8A620ADCEDE25044757131 /* Pods_AdvTanxSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1CFF912A439856213CD60B /* Pods_AdvTanxSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F6A252D7547194474E900B7 /* Adv-TanxSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Adv-TanxSDK.podspec"; path = "../Adv-TanxSDK.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5E35460C0CD2800952020DB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* Adv-TanxSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adv-TanxSDK_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C249BDD1876A84C53BB0D34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		27FC9F598336340F8CA3A944 /* AdvTanxSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdvTanxSDK.podspec; path = ../AdvTanxSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28D15BC480E3FBB313FB06F5 /* Pods_AdvTanxSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvTanxSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1CFF912A439856213CD60B /* Pods_AdvTanxSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvTanxSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* AdvTanxSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvTanxSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* Adv-TanxSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adv-TanxSDK-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* AdvTanxSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdvTanxSDK-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* Adv-TanxSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adv-TanxSDK-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* AdvTanxSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdvTanxSDK-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ADVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADVAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ADVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADVAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* ADVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADVViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* ADVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADVViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		745DA414468DF5E9D715B8FC /* Pods-Adv-TanxSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adv-TanxSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-Adv-TanxSDK_Example/Pods-Adv-TanxSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7B1E1B5623C6EA4114FAF1B /* Pods_Adv_TanxSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adv_TanxSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E560DE38CF654E294362DDB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F76808D7FFD4C10401100F63 /* Pods-Adv-TanxSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adv-TanxSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-Adv-TanxSDK_Example/Pods-Adv-TanxSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		87ADB34B6570F83603525E57 /* Pods-AdvTanxSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvTanxSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AdvTanxSDK_Example/Pods-AdvTanxSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B92F395DCCCFB8E005155181 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BEECADC080139AF9F12F3C38 /* Pods-AdvTanxSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvTanxSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AdvTanxSDK_Example/Pods-AdvTanxSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B01854046051184A36E5CA03 /* Pods_Adv_TanxSDK_Example.framework in Frameworks */,
+				9B8A620ADCEDE25044757131 /* Pods_AdvTanxSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,17 +65,17 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for Adv-TanxSDK */,
+				6003F593195388D20070C39A /* Example for AdvTanxSDK */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				E289EC30EFDE39C1B62055C9 /* Pods */,
+				E289B398659FAF42BF105E91 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* Adv-TanxSDK_Example.app */,
+				6003F58A195388D20070C39A /* AdvTanxSDK_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,12 +86,14 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				A7B1E1B5623C6EA4114FAF1B /* Pods_Adv_TanxSDK_Example.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				2B1CFF912A439856213CD60B /* Pods_AdvTanxSDK_Example.framework */,
+				28D15BC480E3FBB313FB06F5 /* Pods_AdvTanxSDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for Adv-TanxSDK */ = {
+		6003F593195388D20070C39A /* Example for AdvTanxSDK */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* ADVAppDelegate.h */,
@@ -101,17 +105,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for Adv-TanxSDK";
-			path = "Adv-TanxSDK";
+			name = "Example for AdvTanxSDK";
+			path = AdvTanxSDK;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* Adv-TanxSDK-Info.plist */,
+				6003F595195388D20070C39A /* AdvTanxSDK-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* Adv-TanxSDK-Prefix.pch */,
+				6003F59B195388D20070C39A /* AdvTanxSDK-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,18 +123,18 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1F6A252D7547194474E900B7 /* Adv-TanxSDK.podspec */,
-				5E35460C0CD2800952020DB3 /* README.md */,
-				E560DE38CF654E294362DDB3 /* LICENSE */,
+				27FC9F598336340F8CA3A944 /* AdvTanxSDK.podspec */,
+				1C249BDD1876A84C53BB0D34 /* README.md */,
+				B92F395DCCCFB8E005155181 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		E289EC30EFDE39C1B62055C9 /* Pods */ = {
+		E289B398659FAF42BF105E91 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F76808D7FFD4C10401100F63 /* Pods-Adv-TanxSDK_Example.debug.xcconfig */,
-				745DA414468DF5E9D715B8FC /* Pods-Adv-TanxSDK_Example.release.xcconfig */,
+				BEECADC080139AF9F12F3C38 /* Pods-AdvTanxSDK_Example.debug.xcconfig */,
+				87ADB34B6570F83603525E57 /* Pods-AdvTanxSDK_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -138,23 +142,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* Adv-TanxSDK_Example */ = {
+		6003F589195388D20070C39A /* AdvTanxSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Adv-TanxSDK_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvTanxSDK_Example" */;
 			buildPhases = (
-				592FAD6B961290F79C257258 /* [CP] Check Pods Manifest.lock */,
+				020B8E74D374F9E0E2591B21 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0846A4FB3149E04B5A28E913 /* [CP] Copy Pods Resources */,
+				03200986E6536AAED5E5A3DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Adv-TanxSDK_Example";
-			productName = "Adv-TanxSDK";
-			productReference = 6003F58A195388D20070C39A /* Adv-TanxSDK_Example.app */;
+			name = AdvTanxSDK_Example;
+			productName = AdvTanxSDK;
+			productReference = 6003F58A195388D20070C39A /* AdvTanxSDK_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,14 +169,14 @@
 			attributes = {
 				CLASSPREFIX = ADV;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = guangyao;
+				ORGANIZATIONNAME = "“wangguangyao”";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 9ST9FLC84N;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "Adv-TanxSDK" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "AdvTanxSDK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* Adv-TanxSDK_Example */,
+				6003F589195388D20070C39A /* AdvTanxSDK_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -206,25 +210,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0846A4FB3149E04B5A28E913 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Adv-TanxSDK_Example/Pods-Adv-TanxSDK_Example-resources.sh",
-				"${PODS_ROOT}/../../Adv-TanxSDK/SDK/TanxID.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TanxID.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adv-TanxSDK_Example/Pods-Adv-TanxSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		592FAD6B961290F79C257258 /* [CP] Check Pods Manifest.lock */ = {
+		020B8E74D374F9E0E2591B21 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,11 +225,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Adv-TanxSDK_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AdvTanxSDK_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03200986E6536AAED5E5A3DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvTanxSDK_Example/Pods-AdvTanxSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../AdvTanxSDK/SDK/TanxID.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TanxID.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdvTanxSDK_Example/Pods-AdvTanxSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -356,15 +360,15 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F76808D7FFD4C10401100F63 /* Pods-Adv-TanxSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = BEECADC080139AF9F12F3C38 /* Pods-AdvTanxSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = 9ST9FLC84N;
 				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Adv-TanxSDK/Adv-TanxSDK-Prefix.pch";
-				INFOPLIST_FILE = "Adv-TanxSDK/Adv-TanxSDK-Info.plist";
+				GCC_PREFIX_HEADER = "AdvTanxSDK/AdvTanxSDK-Prefix.pch";
+				INFOPLIST_FILE = "AdvTanxSDK/AdvTanxSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,15 +379,15 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 745DA414468DF5E9D715B8FC /* Pods-Adv-TanxSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 87ADB34B6570F83603525E57 /* Pods-AdvTanxSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = 9ST9FLC84N;
 				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Adv-TanxSDK/Adv-TanxSDK-Prefix.pch";
-				INFOPLIST_FILE = "Adv-TanxSDK/Adv-TanxSDK-Info.plist";
+				GCC_PREFIX_HEADER = "AdvTanxSDK/AdvTanxSDK-Prefix.pch";
+				INFOPLIST_FILE = "AdvTanxSDK/AdvTanxSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "Adv-TanxSDK" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "AdvTanxSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -404,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Adv-TanxSDK_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AdvTanxSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,

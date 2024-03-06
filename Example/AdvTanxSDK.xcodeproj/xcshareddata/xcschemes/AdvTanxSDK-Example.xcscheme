@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "Adv-TanxSDK_Example.app"
-               BlueprintName = "Adv-TanxSDK_Example"
-               ReferencedContainer = "container:Adv-TanxSDK.xcodeproj">
+               BuildableName = "AdvTanxSDK_Example.app"
+               BlueprintName = "AdvTanxSDK_Example"
+               ReferencedContainer = "container:AdvTanxSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "Adv-TanxSDK_Tests.xctest"
-               BlueprintName = "Adv-TanxSDK_Tests"
-               ReferencedContainer = "container:Adv-TanxSDK.xcodeproj">
+               BuildableName = "AdvTanxSDK_Tests.xctest"
+               BlueprintName = "AdvTanxSDK_Tests"
+               ReferencedContainer = "container:AdvTanxSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "Adv-TanxSDK_Example.app"
-            BlueprintName = "Adv-TanxSDK_Example"
-            ReferencedContainer = "container:Adv-TanxSDK.xcodeproj">
+            BuildableName = "AdvTanxSDK_Example.app"
+            BlueprintName = "AdvTanxSDK_Example"
+            ReferencedContainer = "container:AdvTanxSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "Adv-TanxSDK_Example.app"
-            BlueprintName = "Adv-TanxSDK_Example"
-            ReferencedContainer = "container:Adv-TanxSDK.xcodeproj">
+            BuildableName = "AdvTanxSDK_Example.app"
+            BlueprintName = "AdvTanxSDK_Example"
+            ReferencedContainer = "container:AdvTanxSDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "Adv-TanxSDK_Example.app"
-            BlueprintName = "Adv-TanxSDK_Example"
-            ReferencedContainer = "container:Adv-TanxSDK.xcodeproj">
+            BuildableName = "AdvTanxSDK_Example.app"
+            BlueprintName = "AdvTanxSDK_Example"
+            ReferencedContainer = "container:AdvTanxSDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

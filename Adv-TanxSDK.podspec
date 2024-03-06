@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Adv-TanxSDK'
-  s.version          = '0.1.0'
+  s.version          = '3.1.1'
   s.summary          = 'A short description of Adv-TanxSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/guangyao/Adv-TanxSDK'
+  s.homepage         = 'https://github.com/bayescom/TanxSDK-for-iOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guangyao' => 'wangguangyao@163.com' }
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Adv-TanxSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Adv-TanxSDK' => ['Adv-TanxSDK/Assets/*.png']
-  # }
+  s.frameworks = 'AdSupport','CoreMotion','CoreTelephony','SystemConfiguration','WebKit'
+  s.libraries = 'resolv','sqlite3','z'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.default_subspec = 'Adv-TanxSDK'
+  
+  s.subspec 'Adv-TanxSDK' do |ss|
+    ss.vendored_frameworks = 'Adv-TanxSDK/SDK/*.framework'
+    ss.resource = 'Adv-TanxSDK/SDK/*.bundle'
+  end
+
 end

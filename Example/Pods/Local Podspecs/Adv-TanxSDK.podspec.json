@@ -1,9 +1,9 @@
 {
   "name": "Adv-TanxSDK",
-  "version": "0.1.0",
+  "version": "3.1.1",
   "summary": "A short description of Adv-TanxSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/guangyao/Adv-TanxSDK",
+  "homepage": "https://github.com/bayescom/TanxSDK-for-iOS.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +13,29 @@
   },
   "source": {
     "git": "https://github.com/guangyao/Adv-TanxSDK.git",
-    "tag": "0.1.0"
+    "tag": "3.1.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Adv-TanxSDK/Classes/**/*"
+  "frameworks": [
+    "AdSupport",
+    "CoreMotion",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "WebKit"
+  ],
+  "libraries": [
+    "resolv",
+    "sqlite3",
+    "z"
+  ],
+  "default_subspecs": "Adv-TanxSDK",
+  "subspecs": [
+    {
+      "name": "Adv-TanxSDK",
+      "vendored_frameworks": "Adv-TanxSDK/SDK/*.framework",
+      "resources": "Adv-TanxSDK/SDK/*.bundle"
+    }
+  ]
 }

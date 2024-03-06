@@ -3,11 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'Adv-TanxSDK_Example' do
+  
   pod 'Adv-TanxSDK', :path => '../'
 
-  target 'Adv-TanxSDK_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end

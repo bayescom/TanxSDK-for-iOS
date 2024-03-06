@@ -8,6 +8,9 @@
 
 #import "ADVViewController.h"
 
+//Bundle内读取图片
+#define BundleImage(imgName) [UIImage imageNamed:[NSString stringWithFormat:@"TanxID.bundle/%@",imgName]]
+
 @interface ADVViewController ()
 
 @end
@@ -18,6 +21,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"TanxID" withExtension:@"bundle"];
+    UIImage *image = BundleImage(@"back");
+    
 }
 
 - (void)didReceiveMemoryWarning

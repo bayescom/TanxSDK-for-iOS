@@ -7,12 +7,16 @@
 //
 
 #import "ADVAppDelegate.h"
+#import <TanxSDK/TanxSDK.h>
 
 @implementation ADVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [TXAdSDKInitializtion setupSDKWithAppID:@"" andAppKey:@""];
+    NSString *version = [TXAdSDKConfiguration sdkVersion];
+    
     return YES;
 }
 

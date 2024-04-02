@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
     
     s.homepage         = 'https://github.com/bayescom/TanxSDK-for-iOS.git'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { '“wangguangyao”' => '“wangguangyao6818@163.com”' }
-    s.source           = { :git => 'git@github.com:bayescom/TanxSDK-for-iOS.git', :tag => s.version.to_s }
+    s.author           = { 'wangguangyao' => 'wangguangyao6818@163.com' }
+    s.source           = { :git => 'https://github.com/bayescom/TanxSDK-for-iOS.git', :tag => s.version.to_s }
     
     s.platform = :ios, "10.0"
     
